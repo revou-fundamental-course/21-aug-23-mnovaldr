@@ -1,0 +1,135 @@
+/* #headerNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .header-wrapper {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo {
+        margin-bottom: 14px;
+    }
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 16px 24px;
+}
+.header-wrapper > .menu {
+    display: flex;
+}
+
+.btn-menu {
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.btn-menu:hover {
+    background-color: gainsboro;
+}
+
+.btn-menu:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.btn-menu:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 24px;
+}
+
+.img-slideshow {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#our-profile {
+    display: flex;
+    padding: 16px 24px;
+}
+
+.profile-img {
+    margin: 60px 0 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.bulat {
+    margin: 30px;
+}
+
+.bulat img {
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0px auto 5px;
+}
+
+#message-us {
+    display: flex;
+    padding: 16px 24px;
+    
+}
+
+.main-form {
+    width: 50%;
+    padding: 16px 24px;
+    margin: 60px 0 10px;
+}
+.main-form table td {
+    padding: 10px;
+}
+
+.message-us {
+    display: flex;
+}
+
+.main-data {
+    padding: 16px 4px;
+    margin: 60px 0 10px 0;
+}
+
+.main-form table input[name="submit"] {
+    width: 100%;
+    background-color: rgb(239, 226, 110);
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-form table input[name="submit"]:hover {
+    background-color: #f3d22b;
+    cursor: pointer;
+}
+
+.main-data table td {
+    padding: 12px;
+}
+  
